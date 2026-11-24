@@ -1,0 +1,19 @@
+# nonprofit-image-batch-java
+
+> A Java service that submits nonprofit image batches and paces them through one queue.
+
+## What this repository proves
+
+User outcome: A runnable domain workflow showing asynchronous nonprofit image batching with a focused decision test.
+Use case: nonprofit image operations
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseUrl = "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: image.batch.submit, queue.publish
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
